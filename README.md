@@ -1,2 +1,2 @@
 # client
-Application's FrontEnd
+Application's Interface
