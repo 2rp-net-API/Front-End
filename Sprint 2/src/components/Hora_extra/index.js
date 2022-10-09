@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import { useNavigate } from "react-router-dom";
 import { alignPropType } from "react-bootstrap/esm/types";
 import "./styles.css"; 
@@ -40,3 +40,4 @@ export default function Hora_extra_funcionario()
     </div>
     )
 }
+

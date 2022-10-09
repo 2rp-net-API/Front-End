@@ -7,7 +7,7 @@ export default function Sobreaviso_funcionario()
 {
     return(
     <div className="container"> {/* trabalhar com colunas */}
-        <div classNaeme="">
+        <div className="">
             <form className="">
                 <div>  {/* div engloba todo bloco */}
                     <div className="row">
