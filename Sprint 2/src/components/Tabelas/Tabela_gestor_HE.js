@@ -9,7 +9,7 @@ export default class Tabelagestor extends Component {
       return (
 <div>
           <h2 className="titulo">APROVAÇÃO DAS HORAS EXTRAS</h2>
-          <h3 className="titulo-gestor">Gestor:</h3>
+          <h3>Gestor:</h3>
 <table id="customers">
           <thead>
         <tr>
