@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
 }
 h2{
     font-size: 20px;
@@ -8,6 +9,8 @@ h2{
 h3{
     font-size: 20px;
     color: #0071F6;
+    width: 40%;
+    border-style: none none dashed none;
 }
 th{
     font-size: 15px;
@@ -34,4 +37,13 @@ th{
     text-align: left;
     background-color: #0071F6;
     color: white;
+}
+button{
+        background-color: #002E94;
+        border: 2px solid #002E94;
+        border-radius: 5px;
+        color: white;
+        padding: 12px 12px;
+        margin: 4px 2px;
+        cursor: pointer;
 }
