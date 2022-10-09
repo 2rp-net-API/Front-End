@@ -1,0 +1,16 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: black;
+}
+h3{
+    font-size: 20px;
+    color: #0071F6;
+}
+th{
+    font-size: 15px;
+    color: #0071F6;
+    border: 2px solid #0071F6;
+}
