@@ -1,13 +1,15 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { alignPropType } from "react-bootstrap/esm/types";
+import React, {  } from "react";
+
+
 import "./styles.css"; 
 
+
 export default function Hora_extra_funcionario()
+
 {
     return(
     <div className="container"> {/* trabalhar com colunas */}
-        <div classNaeme="">
+        <div className="">
             <form className="">
 
                 <div>  {/* div engloba todo bloco */}
