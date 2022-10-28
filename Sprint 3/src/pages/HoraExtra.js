@@ -15,7 +15,7 @@ export default class HoraExtraFuncionario extends Component {
 
         <div className="container text-center pt-5">
 
-          <div className=" d-md-flex justify-content-md-end border-bottom pb-4 mb-2">
+          <div className="d-md-flex justify-content-md-end border-bottom pb-4 mb-2">
             <div id="btn-enviar" className="px-5 ">
               <BotaoEnviar />
             </div>
