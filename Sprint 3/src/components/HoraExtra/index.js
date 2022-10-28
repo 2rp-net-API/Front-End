@@ -4,7 +4,6 @@ import React, { Component } from "react";
 import "./styles.css"; 
 
 
-
 export default class Hora_extra_funcionario extends Component {
    
    render(){
@@ -44,3 +43,6 @@ export default class Hora_extra_funcionario extends Component {
     )
 }
 }
+
+//Pra mostrar duas pages 1 do gestor e outra funcionario, crio tudo na mesma DIV ( pq so pode retornar um elemento HTML ), 
+// dentro da div cria-se variavel para poder dividir e escolher quem vai ser mostrado. Usando IF's.
