@@ -12,7 +12,7 @@ export default class ListaGestor extends Component {
         <thead>
         <tr>
             <th>Data</th>
-            <th style="width: 40%">Funcionário</th>
+            <th style={width = 40}>Funcionário</th>
             <th>Matrícula</th>
             <th>Hora Extra</th>
             <th>Gestor</th>
@@ -51,3 +51,5 @@ export default class ListaGestor extends Component {
       );
     }
 }
+
+

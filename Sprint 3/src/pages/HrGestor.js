@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-import HoraGestor from "../components/HrGestor/index";
+import BtnAtualizar from "../components/BotaoAtualizar/BtnAtualizar";
+import TabelaGestor from "../components/Tabelas/TabelaGestor";
+
+
 
 export default class HrGestor extends Component
 {
     render() {
         return (
-          <div>
-           <HoraGestor/>
+          <div>     
+           <BtnAtualizar/>
+           <TabelaGestor/>
         </div>
         );
       }
