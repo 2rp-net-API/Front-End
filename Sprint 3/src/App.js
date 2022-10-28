@@ -5,6 +5,8 @@ import HoraExtra from "./pages/HoraExtra";
 import Sobreaviso from "./pages/Sobreaviso";
 import HoraGestor from "./pages/HrGestor";
 
+
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
 
@@ -26,7 +28,8 @@ export default class App extends Component {
           </Routes>
         </Router>
         <Footer />
-        
+        <HoraExtra />
+
       </div>
     );
   }
