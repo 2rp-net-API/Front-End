@@ -27,7 +27,6 @@ export default class App extends Component {
           </Routes>
         </Router>
         <Footer />
-        <HoraExtra />
 
       </div>
     );
