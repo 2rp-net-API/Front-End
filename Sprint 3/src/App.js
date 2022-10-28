@@ -19,7 +19,6 @@ export default class App extends Component {
     return (
       <div className="content">
         <Router>
-          
           <Routes>
             <Route path="/login" element={<Login />} exact />
             <Route path="/horaextra" element={<HoraExtra />} exact />

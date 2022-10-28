@@ -1,12 +1,13 @@
-import React, {  } from "react";
+import React, { Component } from "react";
 
 
 import "./styles.css"; 
 
 
-export default function Hora_extra_funcionario()
 
-{
+export default class Hora_extra_funcionario extends Component {
+   
+   render(){
     return(
     <div className="container"> {/* trabalhar com colunas */}
         <div className="">
@@ -41,4 +42,5 @@ export default function Hora_extra_funcionario()
         </div>
     </div>
     )
+}
 }
