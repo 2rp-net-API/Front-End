@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import BtnAtualizar from "../components/BotaoAtualizar/BtnAtualizar";
 import BotaoEnviar from "../components/BotaoEnviar/BotaoEnviar";
 import BotaoCancelar from "../components/BotaoCancelar/BotaoCancelar";
-import ListaHoraExtra from "../components/Tabelas/ListaHoraExtra"
+import TabelaHoraExtra from "../components/Tabelas/TabelaHoraExtra"
 import HoraExtra from "../components/HoraExtra/";
 
 
@@ -15,21 +15,21 @@ export default class HoraExtraFuncionario extends Component {
 
         <div className="container text-center pt-5">
 
-          <div className="col-md row ">
-            <div id="btn-enviar" className="col-2 pb-3">
+          <div className=" d-md-flex justify-content-md-end border-bottom pb-4 mb-2">
+            <div id="btn-enviar" className="px-5 ">
               <BotaoEnviar />
             </div>
 
-            <div className="col-1">
+            <div>
               <BotaoCancelar />
             </div>
             
           </div>
           
 
-          <div className="tabela row">
+          <div className="tabela row pt-5">
             <div className="col align-self-center">
-                <ListaHoraExtra />
+                <TabelaHoraExtra />
             </div>
           </div>
 
