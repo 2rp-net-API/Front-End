@@ -7,8 +7,10 @@ import HoraGestor from "./pages/HrGestor";
 
 
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 
 
@@ -19,7 +21,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="content">
-        
+        < Header />
         <Router>
           <Routes>
             <Route path="/login" element={<Login />} exact />
@@ -29,6 +31,7 @@ export default class App extends Component {
           </Routes>
         </Router>
         <Footer />
+        
 
       </div>
     );
