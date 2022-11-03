@@ -1,16 +1,11 @@
 import React, { Component } from "react";
-<<<<<<< Updated upstream
 import BotaoCancelar from "../components/BotaoCancelar/BotaoCancelar";
 import BotaoEnviar from "../components/BotaoEnviar/BotaoEnviar";
-=======
-
->>>>>>> Stashed changes
 import Sobreaviso from "../components/Sobreaviso/";
 
 export default class Sobreaviso_funcionario extends Component {
   render() {
     return (
-<<<<<<< Updated upstream
         <div>
             <div>
               <Sobreaviso />
@@ -27,11 +22,6 @@ export default class Sobreaviso_funcionario extends Component {
               </div>
           </div>
         </div>
-=======
-      <div>
-        <Sobreaviso />
-      </div>
->>>>>>> Stashed changes
     );
   }
 }
