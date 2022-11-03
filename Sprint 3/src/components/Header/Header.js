@@ -14,7 +14,7 @@ export default function Header()
 
                 {/* ver como atualizar o nome da pagina automaticamente */}
                 <label>Nome da Pagina</label> 
-                <img className="float-end mx-3 mt-2" src={logo} alt="logo Networking TI"></img>
+                <img className="float-end me-2" src={logo} alt="logo Networking TI"></img>
             </header>
         </div>
     )
