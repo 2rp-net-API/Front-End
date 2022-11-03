@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 .body{
+=======
+body{
+>>>>>>> Stashed changes
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 100px;
 }
@@ -12,7 +16,11 @@ h3{
     width: 40%;
     border-style: none none dashed none;
 }
+<<<<<<< Updated upstream
 .th{
+=======
+th{
+>>>>>>> Stashed changes
     font-size: 15px;
     color: #0071F6;
     border: 2px solid #0071F6;
