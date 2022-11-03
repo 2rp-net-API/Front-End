@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import HoraExtra from "./pages/HoraExtra";
 import Sobreaviso from "./pages/Sobreaviso";
 import HoraGestor from "./pages/HrGestor";
+import CentroResultado from "./components/CentroResultado";
 
 
 
@@ -28,6 +29,7 @@ export default class App extends Component {
             <Route path="/horaextra" element={<HoraExtra />} exact />     /**funcioario */
             <Route path="/sobreaviso" element={<Sobreaviso />} exact />   /**funcioario */
             <Route path="/hrgestor" element={<HoraGestor/>} exact/>
+            <Route path="/centroresultado" element={<CentroResultado/>} exact/>
           </Routes>
         </Router>
         <Footer />
