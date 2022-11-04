@@ -10,9 +10,8 @@ export default class HrGestor extends Component
     render() {
         return (
           <div>    
-          <Header/> 
           <BtnAtualizar/>
-          <TabelaGestor/>
+          <TabelaGestor/> /**TA DEVOLVENDO UM FORMULARIO EM VEZ DE UMA TABELA */
         </div>
         );
       }

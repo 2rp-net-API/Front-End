@@ -21,7 +21,7 @@ export default function CentroResultado()
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                        <button className=" col btn">Adicionar</button>
+                        <button className=" col-md-1 btn btn-outline-primary fw-bold">Adicionar</button>
                         </div>
                     </div>
                 </form>
