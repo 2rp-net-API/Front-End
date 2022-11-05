@@ -5,7 +5,7 @@ import BotaoEnviar from "../BotaoEnviar/BotaoEnviar";
 import "./styles.css";
 
 
-const isGestor = false
+const isGestor = false  //temporario, criar logica para identificar se Gestor = True ou False
 export default class Hora_extra_funcionario extends Component {
 
     // const [gestor, setGestor] = useState(false)
@@ -60,7 +60,7 @@ export default class Hora_extra_funcionario extends Component {
 //Pra mostrar duas pages 1 do gestor e outra funcionario, crio tudo na mesma DIV ( pq so pode retornar um elemento HTML ),
 // dentro da div cria-se variavel para poder dividir e escolher quem vai ser mostrado. Usando IF's.
 
-
+//Criar logica para identificar o tipo do usuario.
 
 // add o BotaoEnviar, e cria logica para ele pegar os id desta pagina
 // crio o evento nessa page e chamo o botao que tem o evento do mesmo nome 
