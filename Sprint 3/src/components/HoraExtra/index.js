@@ -46,7 +46,6 @@ export default class Hora_extra_funcionario extends Component {
                     </form>
                 </div>
 
-
                 {isGestor ?
                 <div>
 
