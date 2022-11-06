@@ -26,8 +26,8 @@ export default class App extends Component {
         <Router>
           <Routes>
             <Route path="/login" element={<Login />} exact />
-            <Route path="/horaextra" element={<HoraExtra />} exact />     /**funcioario */
-            <Route path="/sobreaviso" element={<Sobreaviso />} exact />   /**funcioario */
+            <Route path="/horaextra" element={<HoraExtra />} exact />      {/* funcionario */}
+            <Route path="/sobreaviso" element={<Sobreaviso />} exact />   {/* funcionario */}
             <Route path="/hrgestor" element={<HoraGestor/>} exact/>
             <Route path="/centroresultado" element={<CentroResultado/>} exact/>
           </Routes>
