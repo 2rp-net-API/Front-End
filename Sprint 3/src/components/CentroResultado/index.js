@@ -1,6 +1,8 @@
-import "./styles.css"; 
+import "./styles.css";
+import { BsPlusCircle } from "react-icons/bs";
 
-export default function CentroResultado()
+
+export default function CentroResultadoCliente()
 {
     
     return(
@@ -10,7 +12,7 @@ export default function CentroResultado()
                     <div>
                         <div className="row">
                             <div className="col-md-4 pesquisa-cliente ms-5">
-                              <input className="form-control rounded-5 text-primary" type="text" id="" placeholder="Nome"></input>
+                              <input className="form-control rounded-5 text-primary" type="text" id="" placeholder="Cliente"></input>
                             </div>
 
                             <div className="col-md-1 status">
@@ -21,7 +23,10 @@ export default function CentroResultado()
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                        <button className=" col btn">Adicionar</button>
+
+                            <div className="botaoAtualizar d-flex bg-transparent justify-content-center">
+                                <button className="botaoatualizar bg-transparent" ><BsPlusCircle color="var(--primary)"  className="bg-transparent" /></button>
+                             </div> 
                         </div>
                     </div>
                 </form>

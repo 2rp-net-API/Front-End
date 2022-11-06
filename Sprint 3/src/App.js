@@ -4,14 +4,13 @@ import Login from "./pages/Login";
 import HoraExtra from "./pages/HoraExtra";
 import Sobreaviso from "./pages/Sobreaviso";
 import HoraGestor from "./pages/HrGestor";
-import CentroResultado from "./components/CentroResultado";
-
-
-
+import CentroResultado from "./pages/CentroResultado";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+
+//import axios from 'axios'
 
 
 
