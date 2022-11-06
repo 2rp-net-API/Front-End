@@ -10,30 +10,16 @@ export default class TabelaGestor extends Component {
   render() {
     return (
       <div>
-        <h2 className="titulo">APROVAÇÃO DAS HORAS EXTRAS</h2>
-
-
-        <div className="row row-cols-2 mb-5">
-          <div className="col me-5 ">
-            Gestor:
-          </div>
-          <div className="col ms-4">
-            Setor:
-          </div>
-        </div>
-
-
-
         <table class="table  table-bordered">
 
           <thead>
-            <tr>
-              <th class="col-1" >Funcionário</th>
-              <th class="col-1" >Matrícula</th>
-              <th class="col-1" >Entrada</th>
-              <th class="col-1" >Saída</th>
-              <th class="col-1" >Data</th>
-              <th class="col-1" >Status</th>
+            <tr className="text-primary">
+              <th>Funcionário</th>
+              <th>Matrícula</th>
+              <th>Entrada</th>
+              <th>Saída</th>
+              <th>Data</th>
+              <th>Status</th>
             </tr>
           </thead>
 
@@ -106,7 +92,9 @@ export default class TabelaGestor extends Component {
 
           </tbody>
         </table>
-        <BtnAtualizar />
+        <div className="mt-3 mb-5 d-flex justify-content-end">
+          <BtnAtualizar />
+        </div>
 
       </div>
     );

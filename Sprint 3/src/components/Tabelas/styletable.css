@@ -2,23 +2,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 100px;
 }
-h2{
-    font-size: 20px;
-    color: black;
-}
-.col{
-    font-size: 20px;
-    color: #0071F6;
-    
+#underlinerGestor, #underlinerStatus{    
     border-style: none none solid none;
-    
 }
 
-.col-1{
-    font-size: 20px;
-    color: #0071F6;
-    text-align: center;
-}
 
 .header{
     color: #0071F6;

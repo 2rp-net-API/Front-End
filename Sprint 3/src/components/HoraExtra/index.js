@@ -1,5 +1,6 @@
 import React, { Component, useReducer } from "react";
 import BotaoEnviar from "../BotaoEnviar/BotaoEnviar";
+import ListaGestorHoraExtra from "../Tabelas/ListaGestorHoraExtra";
 
 
 
@@ -44,8 +45,27 @@ export default class Hora_extra_funcionario extends Component {
                         </div>
                     </form>
                 </div>
-                {isGestor ? <div></div> : null}  {/*Aqui vai o codigo da pagina do Gestor dentro das DIV.  */}
 
+
+                {isGestor ?
+                <div>
+
+                    <div>
+                        {/* <h2 className="titulo ms-4 mb-4">Aprovação das Horas Extras</h2> */}
+
+
+                        <div className="d-flex mb-5"></div>
+                        <div className="col-2 ms-4 text-decoration-underline text-primary" id="underlinerGestor">
+                            Gestor:
+                        </div>
+                        <div className="col-3"></div>
+                        <div className=" col-2 ms-4 text-primary"  id="underlinerStatus">
+                            Setor:
+                        </div>
+                    </div>
+                    
+                </div> : null}
+                
                 <script>
                     const nomeUsuario = document.getElementById(NomeFuncionario);
                     const nomeUsuario = document.getElementById(MateriaFuncionario);
