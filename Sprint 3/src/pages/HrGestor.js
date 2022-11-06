@@ -8,7 +8,6 @@ export default class HoraGestor extends Component {
   render() {
     return (
       <div>
-        
         <TabelaGestor />
       </div>
     );

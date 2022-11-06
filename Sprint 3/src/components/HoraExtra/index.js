@@ -2,6 +2,7 @@ import React, { Component, useReducer } from "react";
 import BotaoEnviar from "../BotaoEnviar/BotaoEnviar";
 
 
+
 import "./styles.css";
 
 
@@ -43,7 +44,7 @@ export default class Hora_extra_funcionario extends Component {
                         </div>
                     </form>
                 </div>
-                {isGestor ? <div> </div> : null}  {/*Aqui vai o codigo da pagina do Gestor dentro das DIV.  */}
+                {isGestor ? <div></div> : null}  {/*Aqui vai o codigo da pagina do Gestor dentro das DIV.  */}
 
                 <script>
                     const nomeUsuario = document.getElementById(NomeFuncionario);
