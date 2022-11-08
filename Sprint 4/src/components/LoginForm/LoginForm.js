@@ -9,8 +9,8 @@ export default function (props) {
   const [password, setPassword] = useState("");
 
   const history = useNavigate();
-
-  const logar = async (e) => {
+}
+ /* const logar = async (e) => {
     let body = {
       email,
       password,
@@ -79,3 +79,4 @@ export default function (props) {
     </div>
   );
 }
+*/
