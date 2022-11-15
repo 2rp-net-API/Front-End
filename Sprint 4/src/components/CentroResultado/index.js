@@ -1,18 +1,29 @@
 import "./styles.css";
 import { BsPlusCircle } from "react-icons/bs";
+import { useState } from "react";
 
 
-export default function CentroResultadoCliente()
-{
-    
-    return(
+
+function Button(){
+    function CadastroClientes(e){
+       e.preventDefault() 
+    }
+
+}
+
+
+export default function CentroResultadoCliente() {
+
+   const [cadastroclientes, setCadastroClientes] = useState();
+
+    return (
         <div className="">
             <div>
                 <form className="">
                     <div>
                         <div className="row">
                             <div className="col-md-4 pesquisa-cliente ms-5">
-                              <input className="form-control rounded-5 text-primary" type="text" id="" placeholder="Cliente"></input>
+                                <input className="form-control rounded-5 text-primary" type="text" id="" placeholder="Cliente"></input>
                             </div>
 
                             <div className="col-md-1 status">
@@ -25,8 +36,8 @@ export default function CentroResultadoCliente()
                             </div>
 
                             <div className="botaoAtualizar d-flex bg-transparent justify-content-center">
-                                <button className="botaoatualizar bg-transparent" ><BsPlusCircle color="var(--primary)"  className="bg-transparent" /></button>
-                             </div> 
+                                <button className="botaoatualizar bg-transparent" onClick={CadastroClientes}><BsPlusCircle color="var(--primary)" className="bg-transparent" /></button>
+                            </div>
                         </div>
                     </div>
                 </form>
