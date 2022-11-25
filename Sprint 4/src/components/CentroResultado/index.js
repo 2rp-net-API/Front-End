@@ -4,9 +4,9 @@ import { useState } from "react";
 
 
 
-function Button(){
-    function CadastroClientes(e){
-       e.preventDefault() 
+function Button() {
+    function CadastroClientes(e) {
+        e.preventDefault()
     }
 
 }
@@ -14,7 +14,7 @@ function Button(){
 
 export default function CentroResultadoCliente() {
 
-   const [cadastroclientes, setCadastroClientes] = useState();
+    const [cadastroclientes, setCadastroClientes] = useState();
 
     return (
         <div className="">
@@ -36,7 +36,9 @@ export default function CentroResultadoCliente() {
                             </div>
 
                             <div className="botaoAtualizar d-flex bg-transparent justify-content-center">
-                                <button className="botaoatualizar bg-transparent" onClick={CadastroClientes}><BsPlusCircle color="var(--primary)" className="bg-transparent" /></button>
+                                <button className="botaoatualizar bg-transparent" onClick={function setCadastroClientes(Button) { cadastroclientes }}>
+                                    <BsPlusCircle color="var(--primary)" className="bg-transparent" />
+                                </button>
                             </div>
                         </div>
                     </div>
